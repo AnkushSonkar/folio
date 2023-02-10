@@ -1,0 +1,28 @@
+body {
+    padding: 0%;
+  }
+  
+  .home-section {
+    display: grid;
+    grid-template-columns: auto 70px;
+    height: 100vh;
+    max-width: 1280px;
+    margin: auto;
+    background: #000000bd;
+      color: white;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .nav-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background: #00000038;
+  }
+  
