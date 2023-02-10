@@ -7,9 +7,11 @@ const Hcontent = (props) => {
         <div className="home-text">
           <h2>{props.name}</h2>
           <h4>{props.work}</h4>
-          <button>More</button>
+          <button id="home-btn">Explore<i class="fa-solid fa-circle-down"></i></button>
         </div>
-        <img src={props.image} alt="home-img" />
+        <div className="home-img">
+          <img src={props.image} alt="home-img" />
+        </div>
       </div>
     </>
   );
